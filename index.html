@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <!-- Container wrapper -->
+        <div class="container">
+            <!-- Navbar brand -->
+            <a class="navbar-brand" href="#">
+                <i class="fa-solid fa-burger fa-2x">&nbsp Restaurant</i>
+            </a>
+
+            <!-- Toggle button -->
+            <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+                data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="mt-2 fas fa-bars"></i>
+            </button>
+
+            <!-- Collapsible wrapper -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- Left links -->
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active d-flex flex-column text-center" aria-current="page" href="#">
+                            <i class="fas mt-2 fa-home fa-lg"></i>
+                            <span class="small mt-2">Home</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link d-flex flex-column text-center" aria-current="page" href="#"><i
+                                class="fas mt-2 fa-bars fa-lg"></i><span class="small mt-2">Menu</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link d-flex flex-column text-center" aria-current="page" href="#"><i
+                                class="fas mt-2 fa-address-card fa-lg"></i><span class="small mt-2">About Us</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link d-flex flex-column text-center" aria-current="page" href="#"><i
+                                class="fas mt-2 fa-comment-dots fa-lg"></i><span class="small mt-2">Contact</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle d-flex align-items-center" href="#"
+                            id="navbarDropdownMenuLink" role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+                            <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(9).jpg" class="rounded-circle"
+                                height="30" alt="" loading="lazy" />
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">My profile</a></li>
+                            <li><a class="dropdown-item" href="#">Settings</a></li>
+                            <li><a class="dropdown-item" href="#">Logout</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="all-section">
+        <div class="container-img text-center">
+            <img src="https://images.getbento.com/accounts/22022076ca31682d32e6a3253b8e9e7c/media/images/71988September_overhead_orange.jpg?w=1200&fit=crop&auto=compress,format&crop=focalpoint&fp-x=0.5&fp-y=0.5"
+                alt="images">
+            <h1 class="display-0">Welcome to Our Restaurant</h1>
+            <p class="lead">Delicious food, prepared with love.</p>
+            <a class="btn btn-primary btn-lg" href="#" role="button">Explore Menu</a>
+        </div>
+        
+        <!-- Menu Section -->
+        <div class="container">
+            <h2 class="text-center my-4">Our Menu</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card card-one">
+                        <img src="https://images.getbento.com/accounts/22022076ca31682d32e6a3253b8e9e7c/media/images/85291IMG_3966_web.jpg?w=1200&fit=crop&auto=compress,format&crop=focalpoint&fp-x=0.5&fp-y=0.5"
+                            class="card-img-top" alt="Dish 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Dish 1</h5>
+                            <p class="card-text">A delightful mix of flavors and textures.</p>
+                            <p class="card-text"><strong>$12.99</strong></p>
+                        </div>
+                    </div>
+                    <div class="card card-two">
+                        <img src="https://images.getbento.com/accounts/22022076ca31682d32e6a3253b8e9e7c/media/images/98058IMG_1800.JPG?w=1200&fit=crop&auto=compress,format&crop=focalpoint&fp-x=0.5&fp-y=0.5"
+                            class="card-img-top" alt="Dish 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Dish 1</h5>
+                            <p class="card-text">A delightful mix of flavors and textures.</p>
+                            <p class="card-text"><strong>$12.99</strong></p>
+                        </div>
+                    </div>
+                    <div class="card card-three">
+                        <img src="https://images.getbento.com/accounts/22022076ca31682d32e6a3253b8e9e7c/media/images/85291IMG_3966_web.jpg?w=1200&fit=crop&auto=compress,format&crop=focalpoint&fp-x=0.5&fp-y=0.5"
+                            class="card-img-top" alt="Dish 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Dish 1</h5>
+                            <p class="card-text">A delightful mix of flavors and textures.</p>
+                            <p class="card-text"><strong>$12.99</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- About Us Section -->
+        <div class="container my-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="https://images.getbento.com/accounts/22022076ca31682d32e6a3253b8e9e7c/media/images/36463220826_FedPig_A6_FavFootball_0219.jpg?w=1200&fit=crop&auto=compress,format&crop=focalpoint&fp-x=0.5&fp-y=0.5"
+                        class="img-fluid" alt="About Us">
+                </div>
+                <div class="col-md-6">
+                    <h2>About Us</h2>
+                    <p>Our restaurant has been serving delicious meals since 1999. We pride ourselves on our fresh
+                        ingredients and welcoming atmosphere.</p>
+                    <p>Our restaurant has been serving delicious meals since 1999. We pride ourselves on our fresh
+                        ingredients and welcoming atmosphere.</p>
+                    <p>Our restaurant has been serving delicious meals since 1999. We pride ourselves on our fresh
+                        ingredients and welcoming atmosphere.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact Section -->
+        <div class="container my-5">
+            <h2 class="text-center">Contact Us</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Your Name">
+                </div>
+                <br>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Your Email">
+                </div>
+                <br>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" rows="3" placeholder="Your Message"></textarea>
+                </div>
+                <br>
+                <button type="submit" class="btn btn-primary form-control">Submit</button>
+            </form>
+        </div>
+
+    </div>
+
+        <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4">
+        <p>&copy; 2024 Restaurant Name. All rights reserved.</p>
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+    </footer>
+
+
+
+</body>
+
+</html>
