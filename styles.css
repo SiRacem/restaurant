@@ -69,11 +69,10 @@ body {
     }
 
     .col-md-4 {
-        display: flex;
+        display: grid;
         gap: 20px;
         width: 100%;
         margin-bottom: 50px;
-        flex-wrap: wrap;
     }
 
     .col-md-6 h2{
@@ -82,7 +81,7 @@ body {
 }
 
 .col-md-4 {
-    display: flex;
+    display: grid;
     gap: 20px;
     width: 100%;
     margin-bottom: 50px;
